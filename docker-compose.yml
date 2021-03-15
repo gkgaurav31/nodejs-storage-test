@@ -6,4 +6,4 @@ services:
      ports:
        - "8080:8080"
      environment:
-       AZURE_STORAGE_CONNECTION_STRING: DefaultEndpointsProtocol=https;AccountName=gaukstorage123;AccountKey=/aXJPKBtdJMRFKCGrU46tNlk8veX5TFbX45dMExTI2lG5dstkfIrBLbEaLdXLYPeiV4OJluQ39WQAj2dnSE2WQ==;EndpointSuffix=core.windows.net
+       AZURE_STORAGE_CONNECTION_STRING: ${AZURE_STORAGE_CONNECTION_STRING}
