@@ -1,0 +1,15 @@
+{
+    "name": "Azure-blob-upload",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "Karthik",
+    "license": "MIT",
+    "dependencies": {
+        "@azure/storage-blob": "12.0.0",
+        "@types/dotenv": "^4.0.3",
+        "dotenv": "^6.0.0"
+    }
+}
